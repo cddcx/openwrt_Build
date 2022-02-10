@@ -70,9 +70,9 @@ jobs:
       run: |
         git clone https://github.com/kenzok78/jeii package/jeii
         
-    - name: 自定义配置ctc
+    - name: 自定义配置k5.4
       env:
-        CONFIG_FILE: 'ctc.config'
+        CONFIG_FILE: 'k5.4.config'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x ./customize.sh && ./customize.sh

@@ -4,7 +4,7 @@
 # Author: kenzo
 #=================================================
 
-name: openwrt_18.06
+name: immortalwrt-OpenWrt
 
 on:
   repository_dispatch:
